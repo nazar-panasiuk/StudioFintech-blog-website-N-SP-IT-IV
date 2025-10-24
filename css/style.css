@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #204a60;
+    --primary: #9f6b99ff;
     --secondary: #34ad54;
     --light: #eef9ff;
     --dark: #091e3e;
@@ -78,7 +78,7 @@ h6,
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     transition: 0.5s;
 }
@@ -122,7 +122,7 @@ h6,
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
@@ -187,7 +187,7 @@ h6,
 
     .navbar-dark .navbar-nav .nav-link::before {
         position: absolute;
-        content: '';
+        content: "";
         width: 0;
         height: 2px;
         bottom: -1px;
@@ -247,7 +247,7 @@ h6,
 /*** Section Title ***/
 .section-title::before {
     position: absolute;
-    content: '';
+    content: "";
     width: 150px;
     height: 5px;
     left: 0;
@@ -268,7 +268,7 @@ h6,
 
 .section-title::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 6px;
     height: 5px;
     bottom: 0px;
@@ -511,7 +511,7 @@ h6,
 }
 
 /* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 @media (max-width: 700px) {
     .cookie-wrapper {
@@ -541,12 +541,12 @@ h6,
     display: none;
 }
 header i {
-    color: #204a60;
+    color: #9f6b99ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #204a60;
+    color: #9f6b99ff;
     font-weight: 500;
     text-align: center;
 }
@@ -554,7 +554,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #204a60;
+    color: #9f6b99ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -566,10 +566,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #204a60;
+    border: 2px solid #9f6b99ff;
     color: #fff;
     padding: 8px 0;
-    background: #204a60;
+    background: #9f6b99ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -578,14 +578,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #204a60;
+    color: #9f6b99ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #204a60;
+    color: #9f6b99ff;
 }
 #declineBtn:hover {
-    background-color: #204a60;
+    background-color: #9f6b99ff;
     color: #fff;
 }
 /* Footer Style */
